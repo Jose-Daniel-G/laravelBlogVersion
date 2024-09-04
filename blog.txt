@@ -1,0 +1,8 @@
+php artisan make:model Post -m
+php artisan make:model Category -m
+php artisan make:factory PostFactory
+php artisan make:factory CategoryFactory
+php artisan make:factory TagFactory
+php artisan make:factory ImageFactory
+php artisan make:seeder UserSeeder
+php artisan make:seeder PostSeeder 
